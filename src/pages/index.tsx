@@ -1,17 +1,9 @@
-import Link from "next/link";
+import Header from '../components/Header'
 
 export default function Home() {
   return (
     <div>
-      <Link href="/">
-        <a>Home</a>
-      </Link>
-      <Link href="/About">
-        <a>About</a>
-      </Link>
-      <Link href="/Blog">
-        <a>Blog</a>
-      </Link>
+      <Header/>
       <div>This is the home Page</div>
     </div>
   );

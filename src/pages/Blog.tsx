@@ -1,6 +1,12 @@
-import React from 'react'
-const Blog = () => {
-    <div>This the blog Page</div>
-}
+import React from "react";
+import Header from "../components/Header";
 
-export default Blog
+const Blog = () => {
+  return (
+    <div>
+      <Header />
+      <div>This the blog Page</div>
+    </div>
+  );
+};
+export default Blog;
