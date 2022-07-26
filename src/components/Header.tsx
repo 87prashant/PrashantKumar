@@ -1,21 +1,20 @@
 import Link from "next/link";
-import { Home, Boy, Article, DarkMode } from "@mui/icons-material";
+import { HomeOutlined, BoyOutlined, ArticleOutlined, DarkModeOutlined } from "@mui/icons-material";
 
 const Header = () => {
   return (
-    <div className="flex items-center border-4 border-black-800 justify-center sticky w-full h-20 z-50 top-0 mb-8 backdrop-blur-xl">
-      <div className="container gap-3 px-5 max-w-5xl flex flex-row justify-end">
-        <DarkMode className="cursor-pointer absolute mr-1200" />
+    <div className="flex items-center border-4 border-black-800 justify-center sticky w-full h-20 z-10 top-0 backdrop-blur-xl mb-12">
+      <div className="container gap-5 px-5 max-w-4xl flex flex-row ">
         <Link href="/">
-          <Home className="cursor-pointer" />
+          <HomeOutlined className="cursor-pointer h-6 w-6" />
         </Link>
         <Link href="/About">
-          <Boy className="cursor-pointer" />
+          <BoyOutlined className="cursor-pointer h-6 w-6" />
         </Link>
         <Link href="/Blog">
-          <Article />
+          <ArticleOutlined className="cursor-pointer h-6 w-6" />
         </Link>
-        <hr />
+        <DarkModeOutlined className="cursor-pointer ml-auto h-6 w-6" />
       </div>
     </div>
   );
