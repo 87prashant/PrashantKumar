@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { HomeOutlined, BoyOutlined, ArticleOutlined, DarkModeOutlined } from "@mui/icons-material";
+import React from "react"
 
 const Header = () => {
   return (

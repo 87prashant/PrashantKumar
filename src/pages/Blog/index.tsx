@@ -8,7 +8,6 @@ const Blog = () => {
     <div>
       <Header />
       <Main>
-        
         <BlogCard/>
       </Main>
     </div>
