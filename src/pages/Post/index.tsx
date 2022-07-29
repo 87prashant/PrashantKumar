@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "../../components/Header";
-import BlogCard from "../../components/BlogCard";
+import PostCard from "../../components/PostCard";
 import Main from '../../components/Main'
 
-const Blog = () => {
+const Post = () => {
   return (
     <div>
       <Header />
       <Main>
-        <BlogCard/>
+        {/* <PostCard/> */}fgdg fdgd gfd
       </Main>
     </div>
   )
 }
-export default Blog;
+export default Post;

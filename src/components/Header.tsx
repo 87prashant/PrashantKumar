@@ -12,7 +12,7 @@ const Header = () => {
         <Link href="/About">
           <BoyOutlined className="cursor-pointer h-6 w-6" />
         </Link>
-        <Link href="/Blog">
+        <Link href="/Post">
           <ArticleOutlined className="cursor-pointer h-6 w-6" />
         </Link>
         <DarkModeOutlined className="cursor-pointer ml-auto h-6 w-6" />
