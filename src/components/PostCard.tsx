@@ -5,7 +5,7 @@ import type { Post } from "contentlayer/generated";
 
 const PostCard = (post: Post) => {
   return (
-    <div data-aos="fade-up" className="flex align-center transition-all duration-300 bg-zinc-100 hover:bg-zinc-200 rounded w-full p-4 mb-4">
+    <div data-aos="fade-up" data-aos-duration="500" className="flex align-center transition-all duration-300 bg-zinc-100 hover:bg-zinc-200 rounded w-full p-4 mb-4">
       <div>
         <time dateTime={post.date} className="block text-sm text-slate-600">
           {format(parseISO(post.date), "LLLL d, yyyy")}
