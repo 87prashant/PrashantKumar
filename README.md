@@ -7,6 +7,8 @@
 
 [Material UI](https://mui.com/material-ui/icons/#material-svg-icons)
 
+[Animate on Scroll(AOS)](https://michalsnik.github.io/aos/)
+
 ## Getting Started
 
 First, run the development server:
