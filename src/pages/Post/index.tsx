@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/Header";
-import PostCard from "../../components/PostCard";
+// import PostCard from "../../components/PostCard";
 import Main from '../../components/Main'
 
 const Post = () => {
