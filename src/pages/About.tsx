@@ -4,13 +4,13 @@ import Header from "../components/Header";
 
 const About = () => {
   return (
-    <div>
+    <>
       <Header />
-     <Main>
-      This is about page
-     </Main>
-    </div>
+      <Main>
+        <div>This is about page</div>
+      </Main>
+    </>
   );
 };
 
-export default About
+export default About;
