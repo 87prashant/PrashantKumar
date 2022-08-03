@@ -14,9 +14,10 @@ export async function getStaticProps() {
   return {props: {posts}}
 }
 
-type Props = {
-  posts: Post[];
-};
+interface Props {
+  key: number
+  posts: Post[]
+}
 
 export default function Home({posts}: Props) {
   return (
@@ -25,7 +26,7 @@ export default function Home({posts}: Props) {
       <Main>
         <Intro/>
       {posts.map((post, idx) => (
-        <PostCard key={idx} {...post} />
+        <PostCard key={idx} post={post} />
       ))}
       </Main>
     </div>

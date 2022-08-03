@@ -18,7 +18,7 @@ export const Post = defineDocumentType(() => ({
     },
   },
   computedFields: {
-    slug: {
+    url: {
       type: 'string',
       resolve: (post) => post._raw.sourceFileName.replace(/\.mdx$/, ''),
     },
