@@ -6,6 +6,7 @@ import Header from "../../components/Header";
 import Image from "next/image";
 import ProfilePic from "../../Data/Images/Profile_Cropped.png";
 import { parseISO, format } from "date-fns";
+import Footer from "../../components/Footer";
 
 export async function getStaticPaths() {
   const paths = allPosts.map((post) => ({ params: { url: post.url } }));
@@ -43,6 +44,7 @@ const PostLayout = ({ post }: Props) => {
         </div>
         <Component />
       </Main>
+      <Footer />
     </>
   );
 };

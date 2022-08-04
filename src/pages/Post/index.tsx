@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/Header";
 import PostCard from "../../components/PostCard";
 import Main from "../../components/Main";
+import Footer from "../../components/Footer";
 import { allPosts } from "contentlayer/generated";
 
 const Post = () => {
@@ -14,6 +15,7 @@ const Post = () => {
           <PostCard key={idx} post={Post} />
         ))}
       </Main>
+      <Footer />
     </div>
   );
 };

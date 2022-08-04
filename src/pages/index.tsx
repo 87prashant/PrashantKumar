@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Main from "../components/Main";
+import Footer from "../components/Footer";
 import React from "react";
 import { compareDesc } from "date-fns";
 import { allPosts } from "contentlayer/generated";
@@ -29,6 +30,7 @@ export default function Home({ posts }: Props) {
           <PostCard key={idx} post={post} />
         ))}
       </Main>
+      <Footer />
     </>
   );
 }
