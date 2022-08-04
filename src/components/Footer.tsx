@@ -13,7 +13,7 @@ const Footer = () => {
         className="mx-5"
       >
         <div className="h-8 w-8 cursor-pointer hover:text-[#6e5494]">
-          <GitHubIcon className="h-8 w-8" />
+          <GitHubIcon />
         </div>
       </a>
       <a
@@ -23,7 +23,7 @@ const Footer = () => {
         className="mx-5"
       >
         <div className="h-8 w-8 cursor-pointer hover:text-[#1DA1F2]">
-          <TwitterIcon className="h-8 w-8" />
+          <TwitterIcon />
         </div>
       </a>
       <a
@@ -33,7 +33,7 @@ const Footer = () => {
         className="mx-5"
       >
         <div className="h-8 w-8 cursor-pointer hover:text-[#0072b1]">
-          <LinkedInIcon className="h-8 w-8" />
+          <LinkedInIcon />
         </div>
       </a>
     </div>

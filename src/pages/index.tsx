@@ -9,6 +9,7 @@ import type { Post } from "contentlayer/generated";
 import Intro from "../components/Intro";
 import Link from "next/link";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import ProjectCard from '../components/ProjectCard'
 
 export async function getStaticProps() {
   const posts = allPosts.sort((a, b) => {
@@ -28,6 +29,7 @@ export default function Home({ posts }: Props) {
       <Header />
       <Main>
         <Intro />
+        <section className="mb-6">
         <div className="flex mb-4 items-center">
           <h1 className="text-lg font-bold">Posts</h1>
           <div className="flex ml-auto font-bold transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 rounded-lg text-black cursor-pointer p-2">
@@ -44,6 +46,12 @@ export default function Home({ posts }: Props) {
         {posts.slice(0, 2).map((post, idx) => (
           <PostCard key={idx} post={post} />
         ))}
+        </section>
+        
+        <div className="font-bold text-lg mb-4">
+          Projects / Open-Source Contributions
+        </div>
+        <ProjectCard/>
       </Main>
       <Footer />
     </>

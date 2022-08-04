@@ -18,17 +18,15 @@ const PostCard = (params: Props) => {
           className="flex align-center transition-all duration-300 bg-zinc-100 hover:bg-zinc-200 rounded w-full p-4 mb-4"
         >
           <div>
+            <h2 className="text-lg">
+              <div className="text-blue-700">{params.post.title}</div>
+            </h2>
             <time
               dateTime={params.post.date}
               className="block text-sm text-slate-600"
             >
               {format(parseISO(params.post.date), "LLLL d, yyyy")}
             </time>
-            <h2 className="text-lg">
-              <div className="text-blue-700">
-                {params.post.title}
-              </div>
-            </h2>
           </div>
         </div>
       </Link>
