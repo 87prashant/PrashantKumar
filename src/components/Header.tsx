@@ -2,7 +2,7 @@ import Link from "next/link";
 // import HomeOutlined from "@mui/icons-material/HomeOutlined";
 // import BoyOutlined from "@mui/icons-material/BoyOutlined";
 // import ArticleOutlined from "@mui/icons-material/ArticleOutlined";
-import DarkModeOutlined from "@mui/icons-material/DarkModeOutlined";
+import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import React from "react";
 
 const Header = () => {
@@ -24,7 +24,9 @@ const Header = () => {
             Post
           </div>
         </Link>
-        <DarkModeOutlined className="cursor-pointer ml-auto h-10 w-10 transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 rounded-lg p-2" />
+        <div className="cursor-pointer ml-auto h-10 w-10 transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 rounded-lg p-2 flex justify-center items-center">
+        <DarkModeOutlinedIcon  />
+        </div>
       </div>
     </div>
   );

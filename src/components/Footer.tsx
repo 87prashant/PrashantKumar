@@ -12,7 +12,9 @@ const Footer = () => {
         href="https://github.com/87prashant"
         className="mx-5"
       >
-        <GitHubIcon className="h-8 w-8 cursor-pointer hover:text-[#6e5494]" />
+        <div className="h-8 w-8 cursor-pointer hover:text-[#6e5494]">
+          <GitHubIcon className="h-8 w-8" />
+        </div>
       </a>
       <a
         target="_blank"
@@ -20,7 +22,9 @@ const Footer = () => {
         href="https://twitter.com/87KumarPrashant"
         className="mx-5"
       >
-        <TwitterIcon className="h-8 w-8 cursor-pointer hover:text-[#1DA1F2]" />
+        <div className="h-8 w-8 cursor-pointer hover:text-[#1DA1F2]">
+          <TwitterIcon className="h-8 w-8" />
+        </div>
       </a>
       <a
         target="_blank"
@@ -28,7 +32,9 @@ const Footer = () => {
         href="https://www.linkedin.com/in/prashant-kumar-bb990317b/"
         className="mx-5"
       >
-        <LinkedInIcon className="h-8 w-8 cursor-pointer hover:text-[#0072b1]" />
+        <div className="h-8 w-8 cursor-pointer hover:text-[#0072b1]">
+          <LinkedInIcon className="h-8 w-8" />
+        </div>
       </a>
     </div>
   );
