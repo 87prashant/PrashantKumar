@@ -7,7 +7,7 @@ const Intro = () => {
     <div className="flex items-center justify-center mb-16">
       <div className="flex flex-col">
         <h1 className="text-2xl font-bold mb-4">Prashant Kumar</h1>
-        <p className="text-lg w-[70%]">
+        <p className="text-lg">
           I am from India and currently learning frontend development with
           React/Next.js using Typescript. Familiar with Graphql, Relay, and
           Emotion.js.
