@@ -17,7 +17,7 @@ const ProjectCard = () => {
             Personal Website
           </div>
           <div className="text-base">
-            Portfolio with blog/Post functionality
+            Portfolio with blog/post functionality
           </div>
         </a>
       </div>

@@ -1,7 +1,4 @@
 import Link from "next/link";
-// import HomeOutlined from "@mui/icons-material/HomeOutlined";
-// import BoyOutlined from "@mui/icons-material/BoyOutlined";
-// import ArticleOutlined from "@mui/icons-material/ArticleOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import React from "react";
 
@@ -24,9 +21,9 @@ const Header = () => {
             Post
           </div>
         </Link>
-        <div className="cursor-pointer ml-auto h-10 w-10 transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 rounded-lg p-2 flex justify-center items-center">
+        <a href="/NotWorking" className="cursor-pointer ml-auto h-10 w-10 transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 rounded-lg p-2 flex justify-center items-center">
         <DarkModeOutlinedIcon  />
-        </div>
+        </a>
       </div>
     </div>
   );
