@@ -15,12 +15,12 @@ const PostCard = (params: Props) => {
         <div
           data-aos="fade-up"
           data-aos-duration="500"
-          className="flex align-center transition-all duration-300 bg-zinc-100 hover:bg-zinc-200 rounded w-full p-4 mb-4"
+          className="flex align-center transition-all duration-300 bg-zinc-100 hover:bg-zinc-200 active:border-black active:border-2 rounded w-full p-4 mb-4"
         >
           <div>
-            <h2 className="text-lg">
-              <div className="text-blue-700">{params.post.title}</div>
-            </h2>
+            <div className="text-lg font-semibold mb-2 text-blue-700">
+              {params.post.title}
+            </div>
             <time
               dateTime={params.post.date}
               className="block text-sm text-slate-600"

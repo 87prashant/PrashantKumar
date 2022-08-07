@@ -38,7 +38,7 @@ export default function Home({ posts }: Props) {
         <section className="mb-6">
           <div className="flex mb-4 items-center">
             <h1 className="text-lg font-bold">Posts</h1>
-            <div className="flex ml-auto font-bold transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 rounded-lg text-black cursor-pointer p-2">
+            <div className="flex ml-auto font-bold transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 active:border-black active:border-2 rounded-lg text-black cursor-pointer p-2">
               <Link href="/Post">
                 <div className="flex">
                   Show All
