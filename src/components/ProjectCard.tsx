@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectCard = () => {
   return (
-    <>
+    <section className="mb-10">
       <div
         data-aos="fade-up"
         data-aos-duration="500"
@@ -39,7 +39,7 @@ const ProjectCard = () => {
           </div>
         </a>
       </div>
-    </>
+    </section>
   );
 };
 

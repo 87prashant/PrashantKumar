@@ -21,7 +21,7 @@ const Header = () => {
             Post
           </div>
         </Link>
-        <a href="/NotWorking" className="cursor-pointer ml-auto h-10 w-10 transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 rounded-lg p-2 flex justify-center items-center">
+        <a href="/NotWorking" className="cursor-pointer ml-auto mr-4 h-10 w-10 transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 rounded-lg p-2 flex justify-center items-center">
         <DarkModeOutlinedIcon  />
         </a>
       </div>
