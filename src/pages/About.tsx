@@ -9,13 +9,13 @@ const About = () => {
       <Header />
       <Main>
         <div className="text-3xl font-black mb-6">About me</div>
-        <div className="text-lg mb-4">
+        <div className="text-lg mb-4 text-center">
           Hi, My name is Prashant Kumar. I am from a small village near capital
           of India. I recently graduated with a computer science and engineering
           degree. I love to build things using tech and open-source projects are
           great medium for me to learn and apply things openly.
         </div>
-        <div className="text-lg mb-4">
+        <div className="text-lg mb-4 text-center">
           I am currently contributing to{" "}
           <a
             target="_blank"
