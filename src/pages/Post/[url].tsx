@@ -39,10 +39,10 @@ const PostLayout = ({ post }: Props) => {
         <Header />
         <div className="text-3xl font-black mb-6">{post.title}</div>
         <div className="flex mb-8">
-          <Image src={ProfilePic} height="10" width="20" />
+          <Image src={ProfilePic} height="10" width="23" />
           <p className="ml-6">{format(parseISO(post.date), "LLLL d, yyyy")}</p>
         </div>
-        <div className="text-lg text-center">
+        <div className="text-lg">
         <Component />
         </div>
       </Main>
