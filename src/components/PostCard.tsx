@@ -15,7 +15,7 @@ const PostCard = (params: Props) => {
         <div
           data-aos="fade-up"
           data-aos-duration="500"
-          className="flex align-center border-2 transition-all duration-300 bg-zinc-100 hover:bg-zinc-200 active:border-black rounded w-full p-4 mb-4"
+          className="flex align-center border-2 transition-all duration-300 bg-zinc-100 hover:bg-zinc-200 active:border-black dark:bg-black rounded w-full p-4 mb-4"
         >
           <div>
             <div className="text-lg font-semibold mb-2 text-blue-700">
@@ -23,7 +23,7 @@ const PostCard = (params: Props) => {
             </div>
             <time
               dateTime={params.post.date}
-              className="block text-sm text-slate-600"
+              className="block text-sm"
             >
               {format(parseISO(params.post.date), "LLLL d, yyyy")}
             </time>

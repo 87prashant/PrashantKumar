@@ -4,7 +4,7 @@ import React from 'react'
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"
-// import "../scss/style.scss"
+import {ThemeProvider} from 'next-themes'
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
@@ -14,7 +14,13 @@ function MyApp({ Component, pageProps }: AppProps) {
       offset: 50,
     })
   }, [])
-  return <Component {...pageProps} />
+  return (
+    <>
+      <ThemeProvider attribute="class">
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </>
+  )
 }
 
 export default MyApp
