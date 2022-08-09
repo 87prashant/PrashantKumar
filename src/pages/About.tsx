@@ -24,7 +24,7 @@ const About = () => {
             className="underline text-blue-600"
           >
             Parabol
-          </a>{" "}
+          </a>{", "}
           a free agile meeting tool for remote teams.
         </div>
       </Main>

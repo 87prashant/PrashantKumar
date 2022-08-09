@@ -6,7 +6,7 @@ const ProjectCard = () => {
       <div
         data-aos="fade-up"
         data-aos-duration="500"
-        className="cursor-pointer transition-all duration-300 bg-zinc-100 hover:bg-zinc-200 active:border-black border-2 dark:bg-black rounded w-full p-4 mb-4"
+        className="cursor-pointer transition-all duration-300 bg-zinc-100 hover:bg-zinc-200 active:border-black border-2 dark:bg-black dark:border-neutral-900 active:dark:border-white rounded w-full p-4 mb-4"
       >
         <a
           target="_blank"
@@ -24,7 +24,7 @@ const ProjectCard = () => {
       <div
         data-aos="fade-up"
         data-aos-duration="500"
-        className="cursor-pointer transition-all duration-300 bg-zinc-100 hover:bg-zinc-200 active:border-black dark:bg-black border-2 rounded w-full p-4 mb-4"
+        className="cursor-pointer transition-all duration-300 bg-zinc-100 hover:bg-zinc-200 active:border-black dark:bg-black border-2 dark:border-neutral-900 active:dark:border-white rounded w-full p-4 mb-4"
       >
         <a
           target="_blank"

@@ -14,29 +14,29 @@ const Header = () => {
         <Link href="/">
           <div
             className={`${
-              router.pathname == "/" ? "border-black border-2 dark:border-blue-700" : ""
-            } transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 rounded-lg font-bold text-black cursor-pointer p-2`}
+              router.pathname == "/" ? "border-black border-2 dark:border-white" : ""
+            } transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 rounded-lg font-bold dark:bg-black dark:text-white text-black cursor-pointer p-2`}
           >
             Home
           </div>
         </Link>
-        <Link href="/About"  >
+        <Link href="/About">
           <div className={`${
-              router.pathname == "/About" ? "border-black border-2 dark:border-blue-700" : ""
-            } transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 rounded-lg font-bold text-black cursor-pointer p-2`}>
+              router.pathname == "/About" ? "border-black border-2 dark:border-white" : ""
+            } transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 rounded-lg font-bold dark:bg-black dark:text-white text-black cursor-pointer p-2`}>
             About
           </div>
         </Link>
         <Link href="/Post">
           <div className={`${
-              router.pathname == "/Post" ? "border-black border-2 dark:border-blue-700" : ""
-            } transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 rounded-lg font-bold text-black cursor-pointer p-2`}>
+              router.pathname == "/Post" ? "border-black border-2 dark:border-white" : ""
+            } transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 rounded-lg font-bold dark:bg-black dark:text-white text-black cursor-pointer p-2`}>
             Post
           </div>
         </Link>
         <a
           onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-          className="cursor-pointer ml-auto mr-4 h-10 w-10 transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 dark:text-black rounded-lg p-2 flex justify-center items-center"
+          className="cursor-pointer ml-auto h-10 w-10 transition-all duration-200 dark:bg-black bg-zinc-200 hover:bg-zinc-300 rounded-lg p-2 flex justify-center items-center"
         > 
         {theme === 'light' ? <DarkModeOutlinedIcon /> : <LightModeIcon/>}
         </a>
