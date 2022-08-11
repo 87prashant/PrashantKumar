@@ -2,6 +2,7 @@ import React from "react";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import EmailIcon from '@mui/icons-material/Email';
 
 const Footer = () => {
   return (
@@ -36,6 +37,17 @@ const Footer = () => {
           <LinkedInIcon />
         </div>
       </a>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="mailto:87KumarPrashant@gmail.com"
+        className="mx-5"
+      >
+        <div className="h-8 w-8 cursor-pointer hover:text-green-700">
+          <EmailIcon />
+        </div>
+      </a>
+      
     </div>
   );
 };
