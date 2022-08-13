@@ -12,23 +12,24 @@ import RelayLogo from "../Data/Logo/svgviewer-output.svg";
 import Image from "next/image";
 
 const TechLogo = () => {
+    //Todo: make define className with below repeated property and use it to remove repetition.
   return (
     <div className="flex flex-wrap items-center justify-center">
-      <div className="group m-6">
+      <div className="group mx-6">
         <Image src={ReactLogo} height="60px" width="60px" />
         <div className="text-center transition-all ease duration-500 font-bold text-lg group-hover:scale-100 scale-0 ">
           <br />
           React
         </div>
       </div>
-      <div className="group m-6">
+      <div className="group mx-6">
         <Image src={NextJsLogo} height="60px" width="60px" />
         <div className="text-center transition-all ease duration-500 font-bold text-lg group-hover:scale-100 scale-0 ">
           <br />
           NextJs
         </div>
       </div>
-      <div className="group m-6">
+      <div className="group mx-6">
         <Image src={JavascriptLogo} height="60px" width="60px" />
         <div className="text-center transition-all ease duration-500 font-bold text-lg group-hover:scale-100 scale-0 ">
           Java
@@ -36,7 +37,7 @@ const TechLogo = () => {
           Script
         </div>
       </div>
-      <div className="group m-6">
+      <div className="group mx-6">
         <Image src={TypescriptLogo} height="60px" width="60px" />
         <div className="text-center transition-all ease duration-500 font-bold text-lg group-hover:scale-100 scale-0 ">
           Type
@@ -44,35 +45,35 @@ const TechLogo = () => {
           Script
         </div>
       </div>
-      <div className="group m-6">
+      <div className="group mx-6">
         <Image src={GraphQlLogo} height="60px" width="60px" />
         <div className="text-center transition-all ease duration-500 font-bold text-lg group-hover:scale-100 scale-0 ">
           <br />
           Graphql
         </div>
       </div>
-      <div className="group m-6">
+      <div className="group mx-6">
         <Image src={RelayLogo} height="60px" width="60px" />
         <div className="text-center transition-all ease duration-500 font-bold text-lg group-hover:scale-100 scale-0 ">
           <br />
           Relay
         </div>
       </div>
-      <div className="group m-6">
+      <div className="group mx-6">
         <Image src={JavaLogo} height="60px" width="60px" />
         <div className="text-center transition-all ease duration-500 font-bold text-lg group-hover:scale-100 scale-0 ">
           <br />
           Java
         </div>
       </div>
-      <div className="group m-6">
+      <div className="group mx-6">
         <Image src={MaterialUILogo} height="60px" width="60px" />
         <div className="text-center transition-all ease duration-500 font-bold text-lg group-hover:scale-100 scale-0 ">
           <br />
           MUI
         </div>
       </div>
-      <div className="group m-6">
+      <div className="group mx-6">
         <Image src={GitLogo} height="60px" width="60px" />
         <div className="text-center transition-all ease duration-500 font-bold text-lg group-hover:scale-100 scale-0 ">
           <br />

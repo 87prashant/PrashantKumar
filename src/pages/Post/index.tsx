@@ -10,7 +10,7 @@ const Post = () => {
     <div>
       <Header />
       <Main>
-        <div className="text-3xl font-black mb-6">All Posts</div>
+        <div className="text-4xl font-black mb-14 text-center">All Posts</div>
         {allPosts.map((Post, idx) => (
           <PostCard key={idx} post={Post} />
         ))}

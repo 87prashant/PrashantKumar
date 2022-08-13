@@ -30,8 +30,18 @@ export default function Home({ posts }: Props) {
       <Main>
         <Intro />
         <section>
-          <div className="font-bold text-lg mb-6">
-            Projects / Open-Source Contributions
+          <div className="flex mb-6 items-center">
+            <h1 className="text-lg font-bold">Projects / Open-Source Contributions</h1>
+            <div className="flex ml-auto font-bold transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 dark:hover:bg-[#0d0d0d] active:border-black border-2 rounded-lg dark:bg-black dark:text-white text-black dark:border-neutral-900 active:dark:border-white cursor-pointer p-2">
+              <Link href="/About#all_projects">
+                <div className="flex">
+                  Show All
+                  <div className="flex items-center justify-center ml-3">
+                    <ArrowForwardIcon />
+                  </div>
+                </div>
+              </Link>
+            </div>
           </div>
           <ProjectCard />
         </section>

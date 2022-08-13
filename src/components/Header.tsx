@@ -8,6 +8,7 @@ import {useTheme} from 'next-themes'
 const Header = () => {
   const router = useRouter();
   const {theme, setTheme} = useTheme()
+  //Todo: make define className with below repeated property and use it to remove repetition.
   return (
     <div className="flex items-center justify-center sticky w-full h-20 z-10 top-0 backdrop-blur-xl mb-12">
       <div className="container items-center gap-5 px-5 max-w-4xl flex flex-row ">

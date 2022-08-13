@@ -3,6 +3,7 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import TechLogo from "../components/TechLogo";
+import ProjectCard from "src/components/ProjectCard";
 
 const About = () => {
   return (
@@ -30,6 +31,8 @@ const About = () => {
         </div>
         <div className="text-2xl font-bold mb-8 mt-8">Worked With:</div>
         <TechLogo />
+        <div id="all_projects" className="text-2xl font-bold mb-8">All Projects</div>
+        <ProjectCard/>
       </Main>
       <Footer />
     </>
