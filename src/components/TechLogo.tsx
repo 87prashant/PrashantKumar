@@ -14,18 +14,71 @@ import Image from "next/image";
 const TechLogo = () => {
   return (
     <div className="flex flex-wrap items-center justify-center">
-      <Image src={ReactLogo} height="80px" width="80px" />
-      <Image src={NextJsLogo} height="60px" width="60px" />
-      <Image src={JavascriptLogo} height="60px" width="60px" />
-      <Image src={TypescriptLogo} height="60px" width="60px" />
-      <Image src={GraphQlLogo} height="60px" width="60px" />
-      <Image src={RelayLogo} height="60px" width="60px" />
-      <Image src={JavaLogo} height="60px" width="60px" />
-      <Image src={MaterialUILogo} height="60px" width="60px" />
-      {/* <div className="group"> */}
-      <Image src={GitLogo} height="60px" width="60px" />
-      {/* <div className="group-hover:scale-100 scale-0 ">Git</div>
-      </div> */}
+      <div className="group m-6">
+        <Image src={ReactLogo} height="60px" width="60px" />
+        <div className="text-center transition-all ease duration-500 font-bold text-lg group-hover:scale-100 scale-0 ">
+          <br />
+          React
+        </div>
+      </div>
+      <div className="group m-6">
+        <Image src={NextJsLogo} height="60px" width="60px" />
+        <div className="text-center transition-all ease duration-500 font-bold text-lg group-hover:scale-100 scale-0 ">
+          <br />
+          NextJs
+        </div>
+      </div>
+      <div className="group m-6">
+        <Image src={JavascriptLogo} height="60px" width="60px" />
+        <div className="text-center transition-all ease duration-500 font-bold text-lg group-hover:scale-100 scale-0 ">
+          Java
+          <br />
+          Script
+        </div>
+      </div>
+      <div className="group m-6">
+        <Image src={TypescriptLogo} height="60px" width="60px" />
+        <div className="text-center transition-all ease duration-500 font-bold text-lg group-hover:scale-100 scale-0 ">
+          Type
+          <br />
+          Script
+        </div>
+      </div>
+      <div className="group m-6">
+        <Image src={GraphQlLogo} height="60px" width="60px" />
+        <div className="text-center transition-all ease duration-500 font-bold text-lg group-hover:scale-100 scale-0 ">
+          <br />
+          Graphql
+        </div>
+      </div>
+      <div className="group m-6">
+        <Image src={RelayLogo} height="60px" width="60px" />
+        <div className="text-center transition-all ease duration-500 font-bold text-lg group-hover:scale-100 scale-0 ">
+          <br />
+          Relay
+        </div>
+      </div>
+      <div className="group m-6">
+        <Image src={JavaLogo} height="60px" width="60px" />
+        <div className="text-center transition-all ease duration-500 font-bold text-lg group-hover:scale-100 scale-0 ">
+          <br />
+          Java
+        </div>
+      </div>
+      <div className="group m-6">
+        <Image src={MaterialUILogo} height="60px" width="60px" />
+        <div className="text-center transition-all ease duration-500 font-bold text-lg group-hover:scale-100 scale-0 ">
+          <br />
+          MUI
+        </div>
+      </div>
+      <div className="group m-6">
+        <Image src={GitLogo} height="60px" width="60px" />
+        <div className="text-center transition-all ease duration-500 font-bold text-lg group-hover:scale-100 scale-0 ">
+          <br />
+          Git
+        </div>
+      </div>
     </div>
   );
 };
