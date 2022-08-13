@@ -30,24 +30,28 @@ export default function Home({ posts }: Props) {
       <Main>
         <Intro />
         <section>
-          <div className="flex mb-6 items-center">
-            <h1 className="text-lg font-bold">Projects / Open-Source Contributions</h1>
-            <div className="flex ml-auto font-bold transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 dark:hover:bg-[#0d0d0d] active:border-black border-2 rounded-lg dark:bg-black dark:text-white text-black dark:border-neutral-900 active:dark:border-white cursor-pointer p-2">
-              <Link href="/About#all_projects">
-                <div className="flex">
-                  Show All
-                  <div className="flex items-center justify-center ml-3">
-                    <ArrowForwardIcon />
+          <div className="flex mb-6 items-center justify-between">
+            <div className="text-lg font-bold">
+              Projects / Open-Source Contributions
+            </div>
+            <div className="flex items-end justify-end w-[50%]">
+              <div className="font-bold w-[120px] transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 dark:hover:bg-[#0d0d0d] active:border-black border-2 rounded-lg dark:bg-black dark:text-white text-black dark:border-neutral-900 active:dark:border-white cursor-pointer p-2">
+                <Link href="/About#all_projects">
+                  <div className="flex">
+                    Show All
+                    <div className="flex items-center justify-center ml-3">
+                      <ArrowForwardIcon />
+                    </div>
                   </div>
-                </div>
-              </Link>
+                </Link>
+              </div>
             </div>
           </div>
           <ProjectCard />
         </section>
         <section className="mb-6">
           <div className="flex mb-4 items-center">
-            <h1 className="text-lg font-bold">Recent Posts</h1>
+            <div className="text-lg font-bold">Recent Posts</div>
             <div className="flex ml-auto font-bold transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 dark:hover:bg-[#0d0d0d] active:border-black border-2 rounded-lg dark:bg-black dark:text-white text-black dark:border-neutral-900 active:dark:border-white cursor-pointer p-2">
               <Link href="/Post">
                 <div className="flex">
