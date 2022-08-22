@@ -29,7 +29,7 @@ const About = () => {
           </a>
           {", "}a free agile meeting tool for remote teams.
         </div>
-        <div className="text-2xl font-bold mb-8 mt-8">Worked With:</div>
+        <div className="text-2xl font-bold mb-14 mt-8">Worked Wit</div>
         <TechLogo />
         <div id="all_projects" className="text-2xl font-bold mb-8">All Projects</div>
         <ProjectCard/>
