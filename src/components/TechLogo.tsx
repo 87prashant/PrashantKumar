@@ -17,21 +17,21 @@ const TechLogo = () => {
     <div className="flex flex-wrap items-center justify-center">
       <div className="group mx-6 cursor-pointer">
         <Image src={ReactLogo} height="60px" width="60px" />
-        <div className="text-center transition-all ease duration-400 font-bold text-lg group-hover:scale-100 scale-0 ">
+        <div className="text-center transition-all ease duration-450 font-bold text-sm group-hover:scale-100 scale-0 ">
           <br />
           React
         </div>
       </div>
       <div className="group mx-6 cursor-pointer">
         <Image src={NextJsLogo} height="60px" width="60px" />
-        <div className="text-center transition-all ease duration-400 font-bold text-lg group-hover:scale-100 scale-0 ">
+        <div className="text-center transition-all ease duration-450 font-bold text-sm group-hover:scale-100 scale-0 ">
           <br />
           NextJs
         </div>
       </div>
       <div className="group mx-6 cursor-pointer">
         <Image src={JavascriptLogo} height="60px" width="60px" />
-        <div className="text-center transition-all ease duration-400 font-bold text-lg group-hover:scale-100 scale-0 ">
+        <div className="text-center transition-all ease duration-450 font-bold text-sm group-hover:scale-100 scale-0 ">
           Java
           <br />
           Script
@@ -39,7 +39,7 @@ const TechLogo = () => {
       </div>
       <div className="group mx-6 cursor-pointer">
         <Image src={TypescriptLogo} height="60px" width="60px" />
-        <div className="text-center transition-all ease duration-400 font-bold text-lg group-hover:scale-100 scale-0 ">
+        <div className="text-center transition-all ease duration-450 font-bold text-sm group-hover:scale-100 scale-0 ">
           Type
           <br />
           Script
@@ -47,35 +47,35 @@ const TechLogo = () => {
       </div>
       <div className="group mx-6 cursor-pointer">
         <Image src={GraphQlLogo} height="60px" width="60px" />
-        <div className="text-center transition-all ease duration-400 font-bold text-lg group-hover:scale-100 scale-0 ">
+        <div className="text-center transition-all ease duration-450 font-bold text-sm group-hover:scale-100 scale-0 ">
           <br />
           Graphql
         </div>
       </div>
       <div className="group mx-6 cursor-pointer">
         <Image src={RelayLogo} height="60px" width="60px" />
-        <div className="text-center transition-all ease duration-400 font-bold text-lg group-hover:scale-100 scale-0 ">
+        <div className="text-center transition-all ease duration-450 font-bold text-sm group-hover:scale-100 scale-0 ">
           <br />
           Relay
         </div>
       </div>
       <div className="group mx-6 cursor-pointer">
         <Image src={JavaLogo} height="60px" width="60px" />
-        <div className="text-center transition-all ease duration-400 font-bold text-lg group-hover:scale-100 scale-0 ">
+        <div className="text-center transition-all ease duration-450 font-bold text-sm group-hover:scale-100 scale-0 ">
           <br />
           Java
         </div>
       </div>
       <div className="group mx-6 cursor-pointer">
         <Image src={MaterialUILogo} height="60px" width="60px" />
-        <div className="text-center transition-all ease duration-400 font-bold text-lg group-hover:scale-100 scale-0 ">
+        <div className="text-center transition-all ease duration-450 font-bold text-sm group-hover:scale-100 scale-0 ">
           <br />
           MUI
         </div>
       </div>
       <div className="group mx-6 cursor-pointer">
         <Image src={GitLogo} height="60px" width="60px" />
-        <div className="text-center transition-all ease duration-400 font-bold text-lg group-hover:scale-100 scale-0 ">
+        <div className="text-center transition-all ease duration-450 font-bold text-sm group-hover:scale-100 scale-0 ">
           <br />
           Git
         </div>

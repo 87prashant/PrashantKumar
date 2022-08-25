@@ -34,7 +34,7 @@ const ProjectCard = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/ParabolInc/parabol/pull/6910"
+          href="https://github.com/ParabolInc/parabol/pull/6959"
         >
           <div className="text-lg font-semibold mb-2 text-blue-700">
             Parabol
