@@ -21,10 +21,7 @@ const PostCard = (params: Props) => {
             <div className="text-lg font-semibold mb-2 text-blue-700">
               {params.post.title}
             </div>
-            <time
-              dateTime={params.post.date}
-              className="block text-sm"
-            >
+            <time dateTime={params.post.date} className="block text-sm">
               {format(parseISO(params.post.date), "LLLL d, yyyy")}
             </time>
           </div>

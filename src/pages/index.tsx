@@ -10,6 +10,7 @@ import Intro from "../components/Intro";
 import Link from "next/link";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ProjectCard from "../components/ProjectCard";
+import ProjectArray from "../Data/Projects/ProjectArray";
 
 export async function getStaticProps() {
   const posts = allPosts.sort((a, b) => {
@@ -26,6 +27,9 @@ interface Props {
 export default function Home({ posts }: Props) {
   const styleShowAll =
     "font-bold w-[120px] transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 dark:hover:bg-[#0d0d0d] active:border-black border-2 rounded-lg dark:bg-black dark:text-white text-black dark:border-neutral-900 active:dark:border-white cursor-pointer p-2";
+  const SomeProjects = ProjectArray.slice(0, 2).map((Project, idx) => {
+    return <ProjectCard key={idx} Project={Project} />;
+  });
   return (
     <div>
       <Header />
@@ -49,10 +53,10 @@ export default function Home({ posts }: Props) {
               </div>
             </div>
           </div>
-          <ProjectCard />
+          <section className="mb-10">{SomeProjects}</section>
         </section>
         <section className="mb-6">
-          <div className="flex mb-4 items-center">
+          <div className="flex mb-4 items-center justify-between">
             <div className="text-lg font-bold">Recent Posts</div>
             <div className={styleShowAll}>
               <Link href="/Post">

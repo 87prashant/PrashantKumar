@@ -4,8 +4,12 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import TechLogo from "../components/TechLogo";
 import ProjectCard from "src/components/ProjectCard";
+import ProjectArray from "../Data/Projects/ProjectArray"
 
 const About = () => {
+  const AllProjects = ProjectArray.map((Project, key) => {
+    return <ProjectCard key={key} Project={Project}/>
+  })
   return (
     <>
       <Header />
@@ -32,7 +36,7 @@ const About = () => {
         <div className="text-2xl font-bold mb-14 mt-8">Worked With</div>
         <TechLogo />
         <div id="all_projects" className="text-2xl font-bold mb-8">All Projects</div>
-        <ProjectCard/>
+        {AllProjects}
       </Main>
       <Footer />
     </>
