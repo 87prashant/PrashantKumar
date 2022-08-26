@@ -2,7 +2,7 @@ import Main from "../components/Main";
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import TechLogo from "../components/TechLogo";
+import TechLogo from "../../public/TechLogo";
 import ProjectCard from "src/components/ProjectCard";
 import ProjectArray from "../Data/Projects/ProjectArray"
 
