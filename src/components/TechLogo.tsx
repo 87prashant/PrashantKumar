@@ -1,5 +1,5 @@
 import React from "react";
-import LogoArray from "../src/Data/Logo/LogoArray"
+import LogoArray from "../Data/Logo/LogoArray"
 import Image from "next/image";
 
 const TechLogo = () => {
