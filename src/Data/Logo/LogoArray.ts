@@ -36,6 +36,11 @@ const LogoArray = [
   },
   {
     title1: "",
+    title2: "DraftJS",
+    src: "/draft-js.png",
+  },
+  {
+    title1: "",
     title2: "MUI",
     src: "/icons8-material-ui.svg",
   },
