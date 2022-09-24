@@ -6,7 +6,7 @@ const ProjectArray = [
   },
   {
     title: "Parabol",
-    linkToWork: "https://github.com/ParabolInc/parabol/pull/6959",
+    linkToWork: "https://github.com/ParabolInc/parabol/pull/7154",
     description: "Fixed issues and added frontend features",
   },
   {
