@@ -1,14 +1,13 @@
 import React from "react";
 
 interface Props {
-    key: number
-    tag: string
+  tag: string;
 }
 
 const Tag = (props: Props) => {
-    const {key, tag} = props
+  const { tag } = props;
   return (
-    <div className="rounded-lg border-white background-white w-[100px]">
+    <div className="rounded-2xl border-blue-700 border-2 background-white px-[8px] mx-[4px]">
       {tag}
     </div>
   );
