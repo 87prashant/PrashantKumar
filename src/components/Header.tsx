@@ -1,6 +1,7 @@
 import Link from "next/link";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import LightModeIcon from "@mui/icons-material/LightMode";
+import TextSnippetIcon from "@mui/icons-material/TextSnippet";
 import React from "react";
 import { useRouter } from "next/router";
 import { useTheme } from "next-themes";
@@ -35,15 +36,23 @@ const Header = () => {
         <Link href="/Post">
           <div
             className={`${
-              router.pathname == "/Post"
-                ? styleActivePage : ""} ${stylePageButton}`}
+              router.pathname == "/Post" ? styleActivePage : ""
+            } ${stylePageButton}`}
           >
             Post
           </div>
         </Link>
         <a
+          className="ml-auto mr-3 h-10 w-10 rounded-lg transition-all duration-200 dark:bg-black dark:hover:bg-[#0d0d0d] bg-zinc-200 hover:bg-zinc-300 p-2 flex justify-center items-center"
+          rel="noreferrer"
+          target="_blank"
+          href="https://drive.google.com/file/d/1I3sjJ8sWWd-VfDP17Fp6b3dVAyO0PrtK/view?usp=sharing"
+        >
+          <TextSnippetIcon />
+        </a>
+        <a
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-          className="cursor-pointer ml-auto h-10 w-10 transition-all duration-200 dark:bg-black dark:hover:bg-[#0d0d0d] bg-zinc-200 hover:bg-zinc-300 rounded-lg p-2 flex justify-center items-center"
+          className="cursor-pointer h-10 w-10 transition-all duration-200 dark:bg-black dark:hover:bg-[#0d0d0d] bg-zinc-200 hover:bg-zinc-300 rounded-lg p-2 flex justify-center items-center"
         >
           {theme === "light" ? <DarkModeOutlinedIcon /> : <LightModeIcon />}
         </a>
