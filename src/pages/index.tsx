@@ -11,6 +11,7 @@ import Link from "next/link";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ProjectCard from "../components/ProjectCard";
 import ProjectArray from "../Data/Projects/ProjectArray";
+import useWindowWidth from "src/hooks/useWindowWidth";
 
 export async function getStaticProps() {
   const posts = allPosts.sort((a, b) => {
@@ -32,7 +33,7 @@ export default function Home({ posts }: Props) {
   });
   return (
     <div>
-      <Header />
+      <Header windowWidth={useWindowWidth()} />
       <Main>
         <Intro />
         <section>

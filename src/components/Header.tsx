@@ -6,17 +6,16 @@ import React from "react";
 import HomeIcon from "@mui/icons-material/Home";
 import EmojiPeopleIcon from "@mui/icons-material/EmojiPeople";
 import BookIcon from "@mui/icons-material/Book";
-import useWindowWidth from "../hooks/useWindowWidth";
 import { useRouter } from "next/router";
 import { useTheme } from "next-themes";
 
-const Header = () => {
+const Header = (windowWidth: number | undefined) => {
   const router = useRouter();
   const { theme, setTheme } = useTheme();
   const styleActivePage = "border-black border-2 dark:border-white";
   const stylePageButton =
     "transition-all duration-200 bg-zinc-200 hover:bg-zinc-300 rounded-lg font-bold dark:hover:bg-[#0d0d0d] dark:bg-black dark:text-white text-black cursor-pointer p-2";
-  const isMobile = useWindowWidth() < 700;
+  const isMobile = windowWidth ? windowWidth < 700 : false;
   return (
     <div className="flex items-center justify-center sticky w-full h-20 z-10 top-0 backdrop-blur-xl mb-12">
       <div className="container items-center gap-5 px-5 max-w-4xl flex flex-row ">
